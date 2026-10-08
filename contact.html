@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Claudia Petrilli</title>
+  <meta name="description" content="Contact Claudia Petrilli" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">
+        <span class="brand-name">Claudia Petrilli</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link" data-i18n="navHome">Home</a>
+        <a href="portfolio.html" class="nav-link" data-i18n="navPortfolio">Portfolio</a>
+        <a href="comp-card.html" class="nav-link" data-i18n="navCompCard">Comp Card</a>
+        <a href="about.html" class="nav-link" data-i18n="navAbout">About</a>
+        <a href="contact.html" class="nav-link active" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="lang-switcher" aria-label="Language switcher">
+        <button class="lang-btn active" data-lang="it">IT</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero contact-page">
+      <div class="container contact-layout">
+        <div class="contact-copy">
+          <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+          <h1 data-i18n="contactTitle">For bookings and collaborations</h1>
+          <p data-i18n="contactText">
+            Available for editorials, campaigns, beauty work, and brand collaborations worldwide.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <span data-i18n="contactEmailLabel">Email</span>
+              <a href="mailto:hello@claudiapetrilli.com">hello@claudiapetrilli.com</a>
+            </li>
+            <li>
+              <span data-i18n="contactInstagramLabel">Instagram</span>
+              <a href="https://instagram.com/claudiaxdiary" target="_blank" rel="noreferrer">@claudiaxdiary</a>
+            </li>
+            <li>
+              <span data-i18n="contactTikTokLabel">TikTok</span>
+              <a href="https://tiktok.com/@claudiaxdiary" target="_blank" rel="noreferrer">@claudiaxdiary</a>
+            </li>
+            <li>
+              <span data-i18n="contactLocationLabel">Location</span>
+              <span data-i18n="contactLocation">Rome, Italy</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form">
+          <div class="field">
+            <label for="name" data-i18n="formName">Name</label>
+            <input type="text" id="name" placeholder="Name" data-placeholder="formNamePlaceholder" />
+          </div>
+
+          <div class="field">
+            <label for="email" data-i18n="formEmail">Email</label>
+            <input type="email" id="email" placeholder="Email" data-placeholder="formEmailPlaceholder" />
+          </div>
+
+          <div class="field">
+            <label for="message" data-i18n="formMessage">Message</label>
+            <textarea id="message" rows="5" placeholder="Message" data-placeholder="formMessagePlaceholder"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" data-i18n="formSubmit">Send Request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div class="footer-content">
+        <p>© 2026 Claudia Petrilli</p>
+        <div class="footer-links">
+          <a href="portfolio.html" data-i18n="footerPortfolio">Portfolio</a>
+          <a href="comp-card.html" data-i18n="footerCompCard">Comp Card</a>
+          <a href="contact.html" data-i18n="footerContact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-socials">
+        <a href="https://instagram.com/claudiaxdiary" target="_blank" rel="noreferrer" title="Instagram">IG</a>
+        <a href="https://tiktok.com/@claudiaxdiary" target="_blank" rel="noreferrer" title="TikTok">TK</a>
+        <a href="https://youtube.com/@claudiapetrilli" target="_blank" rel="noreferrer" title="YouTube">YT</a>
+        <a href="https://softdaysbyclaudia.wordpress.com" target="_blank" rel="noreferrer" title="Blog">Blog</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
