@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Claudia Petrilli</title>
+  <meta name="description" content="Portfolio di Claudia Petrilli" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">
+        <span class="brand-name">Claudia Petrilli</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link" data-i18n="navHome">Home</a>
+        <a href="portfolio.html" class="nav-link active" data-i18n="navPortfolio">Portfolio</a>
+        <a href="comp-card.html" class="nav-link" data-i18n="navCompCard">Comp Card</a>
+        <a href="about.html" class="nav-link" data-i18n="navAbout">About</a>
+        <a href="contact.html" class="nav-link" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="lang-switcher" aria-label="Language switcher">
+        <button class="lang-btn active" data-lang="it">IT</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="eyebrow" data-i18n="portfolioEyebrow">Portfolio</p>
+        <h1 data-i18n="portfolioTitle">Selected work</h1>
+      </div>
+    </section>
+
+    <section class="portfolio-grid-section">
+      <div class="container">
+        <div class="portfolio-grid">
+          <article class="portfolio-item large">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1000&q=80" alt="Fashion look 1">
+            <div class="portfolio-overlay">
+              <span data-i18n="portfolioTag1">Fashion</span>
+              <h3 data-i18n="portfolioTitle1">Silk & light</h3>
+            </div>
+          </article>
+
+          <article class="portfolio-item">
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80" alt="Beauty campaign">
+            <div class="portfolio-overlay">
+              <span data-i18n="portfolioTag2">Beauty</span>
+              <h3 data-i18n="portfolioTitle2">Luminous</h3>
+            </div>
+          </article>
+
+          <article class="portfolio-item">
+            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80" alt="Editorial portrait">
+            <div class="portfolio-overlay">
+              <span data-i18n="portfolioTag3">Editorial</span>
+              <h3 data-i18n="portfolioTitle3">Quiet drama</h3>
+            </div>
+          </article>
+
+          <article class="portfolio-item">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80" alt="Runway portrait">
+            <div class="portfolio-overlay">
+              <span data-i18n="portfolioTag4">Runway</span>
+              <h3 data-i18n="portfolioTitle4">Movement</h3>
+            </div>
+          </article>
+
+          <article class="portfolio-item">
+            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80" alt="Luxury editorial portrait">
+            <div class="portfolio-overlay">
+              <span data-i18n="portfolioTag5">Luxury</span>
+              <h3 data-i18n="portfolioTitle5">Velvet mood</h3>
+            </div>
+          </article>
+
+          <article class="portfolio-item large">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80" alt="Studio portrait">
+            <div class="portfolio-overlay">
+              <span data-i18n="portfolioTag6">Studio</span>
+              <h3 data-i18n="portfolioTitle6">Timeless frame</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div class="footer-content">
+        <p>© 2026 Claudia Petrilli</p>
+        <div class="footer-links">
+          <a href="portfolio.html" data-i18n="footerPortfolio">Portfolio</a>
+          <a href="comp-card.html" data-i18n="footerCompCard">Comp Card</a>
+          <a href="contact.html" data-i18n="footerContact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-socials">
+        <a href="https://instagram.com/claudiaxdiary" target="_blank" rel="noreferrer" title="Instagram">IG</a>
+        <a href="https://tiktok.com/@claudiaxdiary" target="_blank" rel="noreferrer" title="TikTok">TK</a>
+        <a href="https://youtube.com/@claudiapetrilli" target="_blank" rel="noreferrer" title="YouTube">YT</a>
+        <a href="https://softdaysbyclaudia.wordpress.com" target="_blank" rel="noreferrer" title="Blog">Blog</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
