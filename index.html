@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claudia Petrilli | Portfolio</title>
+  <meta name="description" content="Claudia Petrilli — model portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">
+        <span class="brand-name">Claudia Petrilli</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link active" data-i18n="navHome">Home</a>
+        <a href="portfolio.html" class="nav-link" data-i18n="navPortfolio">Portfolio</a>
+        <a href="comp-card.html" class="nav-link" data-i18n="navCompCard">Comp Card</a>
+        <a href="about.html" class="nav-link" data-i18n="navAbout">About</a>
+        <a href="contact.html" class="nav-link" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="lang-switcher" aria-label="Language switcher">
+        <button class="lang-btn active" data-lang="it">IT</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">Model • Fashion • Beauty</p>
+          <h1 data-i18n="heroTitle">Claudia Petrilli</h1>
+          <p class="lead" data-i18n="heroLead">
+            International model blending elegance, confidence, and editorial sophistication with a refined beauty aesthetic.
+          </p>
+
+          <div class="cta-group">
+            <a href="portfolio.html" class="btn btn-primary" data-i18n="ctaPortfolio">View Portfolio</a>
+            <a href="contact.html" class="btn btn-secondary" data-i18n="ctaContact">Book a Session</a>
+          </div>
+
+          <ul class="stats">
+            <li>
+              <strong>29</strong>
+              <span data-i18n="statYears">Anni</span>
+            </li>
+            <li>
+              <strong>1.65</strong>
+              <span data-i18n="statHeight">Altezza (cm)</span>
+            </li>
+            <li>
+              <strong>38/39</strong>
+              <span data-i18n="statShoeSize">Numero Scarpe</span>
+            </li>
+          </ul>
+
+          <div class="social-links">
+            <a href="https://instagram.com/claudiapetrilli" target="_blank" rel="noreferrer" class="social-btn" title="Instagram">
+              <span>Instagram</span>
+            </a>
+            <a href="https://tiktok.com/@claudiapetrilli" target="_blank" rel="noreferrer" class="social-btn" title="TikTok">
+              <span>TikTok</span>
+            </a>
+            <a href="https://youtube.com/@claudiapetrilli" target="_blank" rel="noreferrer" class="social-btn" title="YouTube">
+              <span>YouTube</span>
+            </a>
+            <a href="https://blog.claudiapetrilli.com" target="_blank" rel="noreferrer" class="social-btn" title="Blog">
+              <span>Blog</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-card">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Claudia Petrilli portrait" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="featuredEyebrow">Selected Work</p>
+          <h2 data-i18n="featuredTitle">Editorial & beauty portfolio</h2>
+        </div>
+
+        <div class="portfolio-preview">
+          <article class="portfolio-card">
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80" alt="Fashion editorial portrait">
+            <div class="card-copy">
+              <span data-i18n="cardCategory1">Editorial</span>
+              <h3 data-i18n="cardTitle1">Refined elegance</h3>
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80" alt="Beauty campaign portrait">
+            <div class="card-copy">
+              <span data-i18n="cardCategory2">Beauty</span>
+              <h3 data-i18n="cardTitle2">Soft glamour</h3>
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80" alt="Campaign portrait in studio">
+            <div class="card-copy">
+              <span data-i18n="cardCategory3">Campaign</span>
+              <h3 data-i18n="cardTitle3">Bold expression</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="container">
+        <blockquote data-i18n="quoteText">
+          "Elegance is not only in the look — it is in the presence."
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div class="footer-content">
+        <p>© 2026 Claudia Petrilli</p>
+        <div class="footer-links">
+          <a href="portfolio.html" data-i18n="footerPortfolio">Portfolio</a>
+          <a href="comp-card.html" data-i18n="footerCompCard">Comp Card</a>
+          <a href="contact.html" data-i18n="footerContact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-socials">
+        <a href="https://instagram.com/claudiapetrilli" target="_blank" rel="noreferrer" title="Instagram">IG</a>
+        <a href="https://tiktok.com/@claudiapetrilli" target="_blank" rel="noreferrer" title="TikTok">TK</a>
+        <a href="https://youtube.com/@claudiapetrilli" target="_blank" rel="noreferrer" title="YouTube">YT</a>
+        <a href="https://blog.claudiapetrilli.com" target="_blank" rel="noreferrer" title="Blog">Blog</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
